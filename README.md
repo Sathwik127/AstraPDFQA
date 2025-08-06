@@ -1,6 +1,6 @@
 # 📄 AstraPDFQA
 
-**AstraPDFQA** is an intelligent PDF Question Answering system built with LangChain, Astra DB, HuggingFace Embeddings, and Google's Gemini LLM. It enables users to upload PDF files and ask questions directly from the content. Under the hood, the app uses vector-based semantic search and retrieval-augmented generation (RAG) to deliver accurate and context-aware answers. The Streamlit frontend provides a simple and intuitive user interface.
+**AstraPDFQA** is an intelligent PDF Question Answering system built with LangChain, **Astra DB** (a serverless vector database by Datastax), HuggingFace Embeddings, and Google's Gemini LLM. It enables users to upload PDF files and ask questions directly from the content. Under the hood, the app uses **Astra DB's scalable vector store** to store semantic embeddings of PDF chunks and perform similarity search. This enables accurate and context-aware answers using retrieval-augmented generation (RAG). The Streamlit frontend provides a simple and intuitive user interface
 
 ---
 
