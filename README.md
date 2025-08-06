@@ -76,8 +76,11 @@ GOOGLE_API_KEY=your_google_api_key
 ```bash
 streamlit run app.py
 ```
-
-Then open the URL shown in your terminal (usually http://localhost:8501).
+Streamlit will start a local server and automatically open the frontend in your default web browser (like Chrome).
+You'll see a message like this in your terminal:
+for eg:
+Local URL: http://localhost:8501
+Network URL: http://192.168.x.x:8501
 
 ---
 
@@ -95,9 +98,24 @@ AstraPDFQA/
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots:
+to run code
+<img width="845" height="277" alt="image" src="https://github.com/user-attachments/assets/92fa6f3d-70a8-43ef-9717-5084a66f7890" />
+You can see this view your Streamlit app in your browser.
+<img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/a140f93e-0b3c-44e8-8486-9bc65a18acb7" />
+you need to upload a file there 
+<img width="1450" height="825" alt="image" src="https://github.com/user-attachments/assets/6431fb27-b755-4310-b52b-62ad1c41f9b4" />
+you can ask questions about the pdf
+<img width="1212" height="745" alt="image" src="https://github.com/user-attachments/assets/d5620e75-619a-46e3-9259-fca15fe66502" />
+you can see the answers there 
 
-> Coming soon!
+
+
+
+
+
+
+
 
 ---
 
@@ -109,23 +127,7 @@ AstraPDFQA/
 - [Astra DB by Datastax](https://www.datastax.com/astra)
 - [Streamlit](https://streamlit.io/)
 
----
 
-## 📝 License
 
-This project is licensed under the MIT License.
 
----
-
-## 💡 Future Improvements
-
-- ✅ Multi-document support  
-- ✅ Better error handling  
-- ✅ Chat history / memory  
-- ✅ PDF preview in UI  
-- ✅ Authentication for user-based access  
-
----
-
-## ✨ Made with ❤️ using AstraDB and AI
 
